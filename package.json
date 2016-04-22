@@ -1,0 +1,15 @@
+{
+  "name": "test-doubles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "example_1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "sinon": "^1.17.3"
+  }
+}
