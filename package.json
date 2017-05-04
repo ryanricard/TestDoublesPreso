@@ -5,6 +5,7 @@
   "main": "example_1.js",
   "scripts": {
     "test": "mocha './test/**/*Test.js'",
+    "test:nondeterministic": "mocha './test/nondeterministic/**/*Test.js'",
     "test:deterministic": "mocha './test/deterministic/**/*Test.js'"
   },
   "author": "",
