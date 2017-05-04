@@ -4,13 +4,16 @@
   "description": "",
   "main": "example_1.js",
   "scripts": {
-    "test": "mocha './**/*Test.js'",
-    "test:deterministic": "mocha './deterministic/**/*Test.js'"
+    "test": "mocha './test/**/*Test.js'",
+    "test:deterministic": "mocha './test/deterministic/**/*Test.js'"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chai": "^3.5.0",
     "sinon": "^1.17.3"
+  },
+  "devDependencies": {
+    "yargs": "^8.0.1"
   }
 }
