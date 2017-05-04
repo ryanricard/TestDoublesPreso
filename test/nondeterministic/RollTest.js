@@ -1,7 +1,7 @@
 const expect = require('chai').expect;
 const Roll = require('../../lib/Roll');
 
-describe('Deterministic Roll', () => {
+describe('Nondeterministic Roll', () => {
   it('should default to two dice', () => {
     const roll = new Roll();
     expect(roll.dice.length).to.equal(2);
