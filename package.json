@@ -1,5 +1,5 @@
 {
-  "name": "test-doubles",
+  "name": "test-doubles-preso",
   "version": "1.0.0",
   "description": "",
   "main": "example_1.js",
@@ -12,9 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "chai": "^3.5.0",
+    "yargs": "^8.0.1",
     "sinon": "^1.17.3"
-  },
-  "devDependencies": {
-    "yargs": "^8.0.1"
   }
 }
